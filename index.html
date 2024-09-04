@@ -7,9 +7,43 @@
 </head>
 <body>
     <form>
-        <span>Personal details</span>
-        <span>Saturation</span>
+        <div>Personal details</div>
+        <div>Salutation</div>
+        <select>
+            <option>None</option>
+            <option>Mr.</option>
+            <option>Mrs.</option>
+        </select>
+        <br>
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="abcd" required id="fname">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" placeholder="abcd" id="lname">
+        <br>
+        <div>
+        <label for="xy">Gender:</label>
+        <input type="radio" id="Male" name="xy">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="xy">
+        <label for="Female">Female</label>
+        </div>  
+
         
+        <label>Email:</label>
+        <input type="email" required minlength="5" placeholder="abc@gmail.com">
+        <br>
+        <br>
+        <label>Date of birth:</label>
+        <input type="date">
+        <br>
+        <br>
+        <label>Address:</label>
+        <br>
+        <textarea></textarea>
+        <br>
+        <input type="submit">
+            
     </form>
 </body>
 </html>
